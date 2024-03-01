@@ -99,7 +99,7 @@ ul li {
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(icons/unchecked.png);
+    background-image: url(https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -112,7 +112,7 @@ ul li.checked {
 }
 
 #list-container li.checked::before {
-    background-image: url(icons/checked.png);
+    background-image: url(https://raw.githubusercontent.com/Arman-Markaryan/Portfolio-Img-Hosting/main/icons/checked.png);
 }
 
 ul li span {
@@ -130,4 +130,16 @@ ul li span {
 
 ul li span:hover {
     background: #edeef0;
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    #button {
+        padding: 16px 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #button {
+        
+    }
 }

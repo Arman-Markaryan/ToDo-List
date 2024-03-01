@@ -73,6 +73,11 @@ input {
     padding: 10px;
 }
 
+input::placeholder {
+    font-size: 1.3em;
+    color: rgb(129, 129, 129);
+}
+
 button {
     border: none;
     outline: none;
@@ -132,14 +137,26 @@ ul li span:hover {
     background: #edeef0;
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
-    #button {
-        padding: 16px 28px;
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .row {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        padding: 0;
+    }
+
+    button {
+        padding: 10px 30px;
+    }
+
+    input {
+        margin-bottom: 2em;
+        padding: 15px;
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
     }
 }
 
-@media screen and (max-width: 320px) {
-    #button {
-        
-    }
-}

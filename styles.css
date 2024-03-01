@@ -20,21 +20,11 @@ body {
 
 #main {
     cursor: default;
-}
-
-nav {
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li a {
     font-weight: bold;
     font-size: 2em;
     color: #fff;
     font-style: italic;
+    padding: 1em;
 }
 
 .container {
